@@ -1,5 +1,5 @@
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyBEHvC6F7wN16ugx8LhJtfWEFejEf9mCyE")
+genai.configure(api_key="API KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")
 system_prompt = """
 You are a tech support assistant. Your job is to help users troubleshoot their technical issues.
